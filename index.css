@@ -1,0 +1,160 @@
+*{
+margin: 2px;
+padding: 4px;
+box-sizing: border-box;
+}
+
+.main-div {
+
+    background-color: rgb(118, 178, 231);
+    
+            }
+    
+            h1{
+                font-size: 20px;
+                color: rgb(236, 205, 24);
+                text-align: center;
+                padding: 10px 20px;
+            }
+
+            p{
+                font-family: 'Koulen', cursive;
+                column-count: 2;
+                column-rule: 2px solid red;
+               
+            }
+
+            .box1-img
+            {
+              
+text-align: center;
+
+            }
+
+            .box3-img
+            {
+              
+
+text-align: center;
+
+            }
+            
+            .box5-img
+            {
+                
+text-align: center;
+              
+
+
+            }
+            #fst{
+                
+                margin: auto;
+                display: block;
+                width: 90%;
+            } 
+
+            #scd{
+               
+                margin: auto;
+                display: block;
+                width: 90%;
+            } 
+
+
+    
+    @media (min-width: 900px)and  (max-width:1300px)
+     {
+        .main,h1{
+            color: rgb(233, 102, 15);
+    
+        }
+          p{
+            font-size: 32px;
+            color: rgb(0, 0, 0);
+            background-color:rgb(249, 255, 249);
+        }
+      
+     }
+    
+    
+    #fst
+    {
+        width: 80%;
+        border: 2px solid red;
+
+    }
+    #scd
+    {
+        width: 80%;
+        border: 2px solid rgb(68, 231, 35);
+    }
+    
+    
+    
+    
+    
+    /*0to 786  */
+    @media (min-width: 487px)and  (max-width:900px)
+    {
+        .main,h1{
+            color: chartreuse;
+            
+        }
+           p {
+            font-size: 29px;
+            color: rgb(199, 12, 106);
+            column-count: 3;
+            column-rule: 2px solid blueviolet;
+
+        }
+         
+    #fst
+    {
+        width: 60%;
+    }
+    #scd
+    {
+        width: 60%;
+    }
+    
+    
+    
+        
+           
+        
+    }
+    /* end 78*/
+    
+    /* 486*/
+    
+    @media (min-width: 0px)and  (max-width:486px)
+      {
+        .main,h1{
+            color: rgb(23, 118, 207);
+            font-size: 20px;
+    
+        }
+         p  {
+            font-size: 26px;
+            color: rgb(189, 153, 38);
+            column-count: 1;
+            column-gap: 50px;
+        }
+          
+    #fst
+    {
+        width: 60%;
+        border: 2px solid rgb(185, 183, 24);
+    }
+    #scd
+    {
+        width: 60%;
+    }
+    
+    
+    
+       
+    }
+    /*end*/
+    
